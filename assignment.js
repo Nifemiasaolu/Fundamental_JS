@@ -18,8 +18,8 @@
 
 // let language;
 
-// console.log (typeof isIsIsland);
-// console.log (typeof country);
-// console.log(typeof population);
-// console.log(typeof language);
+console.log (typeof isIsIsland);
+console.log (typeof country);
+console.log(typeof population);
+console.log(typeof language);
 
