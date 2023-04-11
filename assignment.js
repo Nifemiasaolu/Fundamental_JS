@@ -1,25 +1,25 @@
 // Variables
 
-let country  = "Nigeria";
-let continent = "Africa";
-let population = "200 million"
+// let country  = "Nigeria";
+// let continent = "Africa";
+// let population = "200 million"
 
-console.log (country);
-console.log (continent);
-console.log (population);
+// console.log (country);
+// console.log (continent);
+// console.log (population);
 
-// Data Types 
+// // Data Types 
 
-let isIsIsland = "Nigeria";
+// let isIsIsland = "Nigeria";
 
-isIsIsland = true;
+// isIsIsland = true;
 
-console.log (isIsIsland);
+// console.log (isIsIsland);
 
-let language;
+// let language;
 
-console.log (typeof isIsIsland);
-console.log (typeof country);
-console.log(typeof population);
-console.log(typeof language);
+// console.log (typeof isIsIsland);
+// console.log (typeof country);
+// console.log(typeof population);
+// console.log(typeof language);
 
