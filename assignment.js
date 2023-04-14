@@ -49,22 +49,29 @@ let continent = 'Africa';
 
 
     // Basic Operators
-const language = "Yoruba"
-const population = 200000 ;
-console.log (population / 2);
+// const language = "Yoruba"
+// const population = 200000 ;
+// console.log (population / 2);
 
-// population++;
-console.log (population);
+// // population++;
+// console.log (population);
 
-const finlandPopulation = 6000;
+// const finlandPopulation = 6000;
 
-console.log (finlandPopulation > population);
+// console.log (finlandPopulation > population);
 
-console.log (population > finlandPopulation);
+// console.log (population > finlandPopulation);
 
-console.log (population / 2 < 33);
+// console.log (population / 2 < 33);
 
-const description = country + " is in " + continent + ", and its "
-+ population + " people speak " + language
+// const description = country + " is in " + continent + ", and its "
+// + population + " people speak " + language
 
-console.log (description);
+// console.log (description);
+
+    Coding Challenge
+
+const BMI = mass / height ** 2;
+
+const markMass, markHeight = 78kg, ;
+const 
