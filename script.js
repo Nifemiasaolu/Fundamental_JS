@@ -80,11 +80,11 @@
 // const year = 2037;
 // const job = 'engineer';
 
-// const jonas = "I'm " + jonasName + ", a " + (year - birthYear)
-// + " year old " + job;
-// console.log (jonas);
+const jonas = "I'm " + jonasName + ", a " + (year - birthYear)
++ " year old " + job;
+console.log (jonas);
 
-// const jonasNew =  `I'm ${jonasName}, a ${year - birthYear}, years old ${job}`;
-// console.log (jonasNew);
+const jonasNew =  `I'm ${jonasName}, a ${year - birthYear}, years old ${job}`;
+console.log (jonasNew);
 
    
