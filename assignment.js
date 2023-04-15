@@ -49,8 +49,8 @@ let continent = 'Africa';
 
 
     // Basic Operators
-// const language = "Yoruba"
-// const population = 200000 ;
+const language = "Yoruba"
+const population = 200000 ;
 // console.log (population / 2);
 
 // // population++;
@@ -69,9 +69,48 @@ let continent = 'Africa';
 
 // console.log (description);
 
+const description = `${country} is in ${continent} and it's ${population} people speak ${language}`;
+// console.log (description);
+
     Coding Challenge
 
 const BMI = mass / height ** 2;
 
-const markMass, markHeight = 78kg, ;
-const 
+    Test Data 1
+const markMass = 78;
+const markHeight = 1.69;
+
+const johnMass= 92;
+const johnHeight = 1.88;
+
+const markBMI = markMass / markHeight ** 2;
+console.log (markBMI); 
+
+const johnBMI = johnMass / johnHeight ** 2;
+console.log (johnBMI);
+
+// console.log (markBMI > johnBMI);
+const markHigherBMI = markBMI > johnBMI;
+console.log (markHigherBMI);
+
+
+// Test Data 2
+
+const markMassData2 = 95;
+const markHeigtData2 = 1.88;
+
+const johnMassData2 = 85;
+const johnHeigtData2 = 1.76;
+
+const markBMI2 = markMassData2 / markHeigtData2 ** 2;
+console.log (markBMI2);
+
+const johnBMI2 = johnMassData2 / johnHeigtData2 ** 2;
+console.log (johnBMI2);
+
+const markHigherBMI2 = markBMI2 > johnBMI2;
+console.log (markHigherBMI2);
+
+
+
+
