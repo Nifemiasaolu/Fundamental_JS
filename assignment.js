@@ -96,20 +96,20 @@ console.log (markHigherBMI);
 
 // Test Data 2
 
-// const markMassData2 = 95;
-// const markHeigtData2 = 1.88;
+const markMassData2 = 95;
+const markHeigtData2 = 1.88;
 
-// const johnMassData2 = 85;
-// const johnHeigtData2 = 1.76;
+const johnMassData2 = 85;
+const johnHeigtData2 = 1.76;
 
-// const markBMI2 = markMassData2 / markHeigtData2 ** 2;
-// console.log (markBMI2);
+const markBMI2 = markMassData2 / markHeigtData2 ** 2;
+console.log (markBMI2);
 
-// const johnBMI2 = johnMassData2 / johnHeigtData2 ** 2;
-// console.log (johnBMI2);
+const johnBMI2 = johnMassData2 / johnHeigtData2 ** 2;
+console.log (johnBMI2);
 
-// const markHigherBMI2 = markBMI2 > johnBMI2;
-// console.log (markHigherBMI2);
+const markHigherBMI2 = markBMI2 > johnBMI2;
+console.log (markHigherBMI2);
 
 
 
