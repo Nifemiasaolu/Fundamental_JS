@@ -70,15 +70,15 @@
 // const isFullAge = ageSarwah >= 18;
 
 
-// const now = 2037;
-// const ageJonas = now - 1991;
-// const ageSarwah = now - 2020;
-// console.log (now - 1991 > now - 2018);
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarwah = now - 2020;
+console.log (now - 1991 > now - 2018);
 
-// const jonasName = 'Jonas';
-// const birthYear = 1991;
-// const year = 2037;
-// const job = 'engineer';
+const jonasName = 'Jonas';
+const birthYear = 1991;
+const year = 2037;
+const job = 'engineer';
 
 const jonas = "I'm " + jonasName + ", a " + (year - birthYear)
 + " year old " + job;
