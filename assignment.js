@@ -77,65 +77,65 @@ const language = "Yoruba"
 // const BMI = mass / height ** 2;
 
 //     Test Data 1
-const markMass = 78;
-const markHeight = 1.69;
+// const markMass = 78;
+// const markHeight = 1.69;
 
-const johnMass= 92;
-const johnHeight = 1.88;
+// const johnMass= 92;
+// const johnHeight = 1.88;
 
-const markBMI = markMass / markHeight ** 2;
-console.log (markBMI); 
+// const markBMI = markMass / markHeight ** 2;
+// console.log (markBMI); 
 
-const johnBMI = johnMass / johnHeight ** 2;
-console.log (johnBMI);
+// const johnBMI = johnMass / johnHeight ** 2;
+// console.log (johnBMI);
 
 // console.log (markBMI > johnBMI);
 // const markHigherBMI = markBMI > johnBMI;
 // console.log (markHigherBMI);
 
 
-if (markBMI >= johnBMI) {
-    console.log (`Mark's BMI (${markBMI} is higher than John's (${johnBMI})`);
+// if (markBMI >= johnBMI) {
+//     console.log (`Mark's BMI (${markBMI} is higher than John's (${johnBMI})`);
 
-} else {
-    console.log (`John's BMI (${johnBMI} is higher than Mark's (${markBMI})`);
-}
+// } else {
+//     console.log (`John's BMI (${johnBMI} is higher than Mark's (${markBMI})`);
+// }
 
-// Test Data 2
+// // Test Data 2
 
-const markMassData2 = 95;
-const markHeigtData2 = 1.88;
+// const markMassData2 = 95;
+// const markHeigtData2 = 1.88;
 
-const johnMassData2 = 85;
-const johnHeigtData2 = 1.76;
+// const johnMassData2 = 85;
+// const johnHeigtData2 = 1.76;
 
-const markBMI2 = markMassData2 / markHeigtData2 ** 2;
-console.log (markBMI2);
+// const markBMI2 = markMassData2 / markHeigtData2 ** 2;
+// console.log (markBMI2);
 
-const johnBMI2 = johnMassData2 / johnHeigtData2 ** 2;
-console.log (johnBMI2);
+// const johnBMI2 = johnMassData2 / johnHeigtData2 ** 2;
+// console.log (johnBMI2);
 
 // const markHigherBMI2 = markBMI2 > johnBMI2;
 // console.log (markHigherBMI2);
 
 
-if (markBMI2 >= johnBMI2) {
-    console.log (`Mark's BMI (${markBMI2} is higher than John's (${johnBMI2})`);
+// if (markBMI2 >= johnBMI2) {
+//     console.log (`Mark's BMI (${markBMI2} is higher than John's (${johnBMI2})`);
 
-} else {
-    console.log (`John's BMI (${johnBMI2} is higher than Mark's (${markBMI2})`);
-}
+// } else {
+//     console.log (`John's BMI (${johnBMI2} is higher than Mark's (${markBMI2})`);
+// }
 
-const population = 200;
-const country = 'Nigeria';
-const continent = 'Africa';
-const populationAverage = (33 - population) / 2;
+// const population = 200;
+// const country = 'Nigeria';
+// const continent = 'Africa';
+// const populationAverage = (33 - population) / 2;
 
-if (population > 33) {
-    console.log (`${country}'s population is above average`)
-} else {
-    console.log (`${country}'s population is ${populationAverage} million`);
-}
+// if (population > 33) {
+//     console.log (`${country}'s population is above average`)
+// } else {
+//     console.log (`${country}'s population is ${populationAverage} million`);
+// }
 
 
 
