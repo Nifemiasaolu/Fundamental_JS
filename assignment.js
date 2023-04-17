@@ -1,5 +1,5 @@
-let country = 'Nigeria';
-let continent = 'Africa';
+// let country = 'Nigeria';
+// let continent = 'Africa';
 // let population = '200 million';
 
 // console.log (country);
@@ -50,7 +50,7 @@ let continent = 'Africa';
 
     // Basic Operators
 const language = "Yoruba"
-const population = 200000 ;
+// const population = 200000 ;
 // console.log (population / 2);
 
 // // population++;
@@ -69,30 +69,37 @@ const population = 200000 ;
 
 // console.log (description);
 
-const description = `${country} is in ${continent} and it's ${population} people speak ${language}`;
+// const description = `${country} is in ${continent} and it's ${population} people speak ${language}`;
 // console.log (description);
 
-    Coding Challenge
+    // Coding Challenge
 
-const BMI = mass / height ** 2;
+// const BMI = mass / height ** 2;
 
 //     Test Data 1
-// const markMass = 78;
-// const markHeight = 1.69;
+const markMass = 78;
+const markHeight = 1.69;
 
-// const johnMass= 92;
-// const johnHeight = 1.88;
+const johnMass= 92;
+const johnHeight = 1.88;
 
-// const markBMI = markMass / markHeight ** 2;
-// console.log (markBMI); 
+const markBMI = markMass / markHeight ** 2;
+console.log (markBMI); 
 
-// const johnBMI = johnMass / johnHeight ** 2;
-// console.log (johnBMI);
+const johnBMI = johnMass / johnHeight ** 2;
+console.log (johnBMI);
 
-// // console.log (markBMI > johnBMI);
+// console.log (markBMI > johnBMI);
 // const markHigherBMI = markBMI > johnBMI;
 // console.log (markHigherBMI);
 
+
+if (markBMI >= johnBMI) {
+    console.log (`Mark's BMI (${markBMI} is higher than John's (${johnBMI})`);
+
+} else {
+    console.log (`John's BMI (${johnBMI} is higher than Mark's (${markBMI})`);
+}
 
 // Test Data 2
 
@@ -108,8 +115,29 @@ console.log (markBMI2);
 const johnBMI2 = johnMassData2 / johnHeigtData2 ** 2;
 console.log (johnBMI2);
 
-const markHigherBMI2 = markBMI2 > johnBMI2;
-console.log (markHigherBMI2);
+// const markHigherBMI2 = markBMI2 > johnBMI2;
+// console.log (markHigherBMI2);
+
+
+if (markBMI2 >= johnBMI2) {
+    console.log (`Mark's BMI (${markBMI2} is higher than John's (${johnBMI2})`);
+
+} else {
+    console.log (`John's BMI (${johnBMI2} is higher than Mark's (${markBMI2})`);
+}
+
+const population = 200;
+const country = 'Nigeria';
+const continent = 'Africa';
+const populationAverage = (33 - population) / 2;
+
+if (population > 33) {
+    console.log (`${country}'s population is above average`)
+} else {
+    console.log (`${country}'s population is ${populationAverage} million`);
+}
+
+
 
 
 
