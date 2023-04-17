@@ -90,21 +90,59 @@
 
     // If/Else Statement 
 
-const age = 4;
+// const age = 4;
 
-if (age >= 18) {
-    console.log (`Sarah can start her driving licence 🚗`);
+// if (age >= 18) {
+//     console.log (`Sarah can start her driving licence 🚗`);
+// } else {
+//     const yearLeft = 18 - age;
+//     console.log (`Sarah is too young, wait another ${yearLeft} years`)
+// }
+
+// const birthYear = 2002;
+
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//       century = 21;
+// }
+// console.log (century);
+
+    // Type Conversion and Coercion 
+
+const numberYear = '1991';
+console.log (numberYear);
+console.log (Number(numberYear));
+
+console.log (String(23));
+
+console.log ('I am ' + 23 + " years old.");
+
+console.log ('23' + '10' - '50');
+
+
+let n = "1" + 1;
+n = n - 1;
+console.log (n);
+
+console.log (Boolean(0));
+console.log (Boolean(undefined));
+console.log (Boolean('jonas'));
+console.log (Boolean(''));
+console.log (Boolean({}));
+
+const money = 10;
+if (money){
+    console.log ("Don't spend it all;)");
 } else {
-    const yearLeft = 18 - age;
-    console.log (`Sarah is too young, wait another ${yearLeft} years`)
+    console.log ("Go get a job");
 }
 
-const birthYear = 2002;
+let height = 0;
 
-let century;
-if (birthYear <= 2000) {
-    century = 20;
+if (height) {
+    console.log ('YAY! Height is defined');
 } else {
-      century = 21;
+    console.log ('Height is UNDEFINED');
 }
-console.log (century);
