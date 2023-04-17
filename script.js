@@ -111,38 +111,70 @@
 
     // Type Conversion and Coercion 
 
-const numberYear = '1991';
-console.log (numberYear);
-console.log (Number(numberYear));
+// const numberYear = '1991';
+// console.log (numberYear);
+// console.log (Number(numberYear));
 
-console.log (String(23));
+// console.log (String(23));
 
-console.log ('I am ' + 23 + " years old.");
+// console.log ('I am ' + 23 + " years old.");
 
-console.log ('23' + '10' - '50');
+// console.log ('23' + '10' - '50');
 
 
-let n = "1" + 1;
-n = n - 1;
-console.log (n);
+// let n = "1" + 1;
+// n = n - 1;
+// console.log (n);
 
-console.log (Boolean(0));
-console.log (Boolean(undefined));
-console.log (Boolean('jonas'));
-console.log (Boolean(''));
-console.log (Boolean({}));
+    // Truth and Falsy Values 
 
-const money = 10;
-if (money){
-    console.log ("Don't spend it all;)");
-} else {
-    console.log ("Go get a job");
-}
+// console.log (Boolean(0));
+// console.log (Boolean(undefined));
+// console.log (Boolean('jonas'));
+// console.log (Boolean(''));
+// console.log (Boolean({}));
 
-let height = 0;
+// const money = 10;
+// if (money){
+//     console.log ("Don't spend it all;)");
+// } else {
+//     console.log ("Go get a job");
+// }
 
-if (height) {
-    console.log ('YAY! Height is defined');
-} else {
-    console.log ('Height is UNDEFINED');
-}
+// let height = 0;
+
+// if (height) {
+//     console.log ('YAY! Height is defined');
+// } else {
+//     console.log ('Height is UNDEFINED');
+// }
+
+    // Equality Operators 
+
+
+//  const age = '18';
+
+//  if (age === 18) console.log ('You are an adult now (strict)')
+ 
+//  if (age == 18) console.log ('You are an adult now (loose)')
+
+//  Avoid the loose equality value in most case   
+ 
+// const favorite = Number (prompt ("What is your favorite number?"));
+
+// console.log (favorite);
+// console.log (typeof favorite);
+
+// if (favorite === 7) {
+//     console.log (`7 is a cool number`);
+// } else if (favorite) {
+//     console.log (`${favorite} is a fantastic choice`);
+// } else if (favorite === 9){
+//     console.log ("9 is also a cool number")
+// }
+
+// else {
+//     console.log ("Number is neither 23 or 7 or 9");
+// }
+
+// if (favorite !== 23) console.log ("Why not 23?")
