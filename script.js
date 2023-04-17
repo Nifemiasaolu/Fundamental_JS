@@ -80,11 +80,31 @@
 // const year = 2037;
 // const job = 'engineer';
 
-const jonas = "I'm " + jonasName + ", a " + (year - birthYear)
-+ " year old " + job;
-console.log (jonas);
+// const jonas = "I'm " + jonasName + ", a " + (year - birthYear)
+// + " year old " + job;
+// console.log (jonas);
 
-const jonasNew =  `I'm ${jonasName}, a ${year - birthYear}, years old ${job}`;
-console.log (jonasNew);
+// const jonasNew =  `I'm ${jonasName}, a ${year - birthYear}, years old ${job}`;
+// console.log (jonasNew);
 
-   
+
+    // If/Else Statement 
+
+const age = 4;
+
+if (age >= 18) {
+    console.log (`Sarah can start her driving licence 🚗`);
+} else {
+    const yearLeft = 18 - age;
+    console.log (`Sarah is too young, wait another ${yearLeft} years`)
+}
+
+const birthYear = 2002;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+      century = 21;
+}
+console.log (century);
