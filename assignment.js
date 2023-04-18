@@ -49,7 +49,7 @@
 
 
     // Basic Operators
-const language = "Yoruba"
+// const language = "Yoruba"
 // const population = 200000 ;
 // console.log (population / 2);
 
@@ -200,16 +200,40 @@ const isIsland = false;
 
     // Bonus 2
 
-const dolphinAverageScore = (97 + 112 + 101) / 3;
-const koalasAverageScore = (109 + 95 + 106) / 3;
-const minimumScore = 100;
-console.log (dolphinAverageScore, koalasAverageScore);
+// const dolphinAverageScore = (97 + 112 + 101) / 3;
+// const koalasAverageScore = (109 + 95 + 106) / 3;
+// const minimumScore = 100;
+// console.log (dolphinAverageScore, koalasAverageScore);
 
-if ((dolphinAverageScore > koalasAverageScore) && (dolphinAverageScore >= minimumScore)) {
-    console.log (`Dolphin Team are the champion!`)
-} else if ((dolphinAverageScore === koalasAverageScore) && dolphinAverageScore >= 100 && koalasAverageScore >= 100) {
-    console.log (`Both wins the trophy!`)
-} else {
-    console.log (`Koalas Team are the deserving Champion`)
-}
+// if ((dolphinAverageScore > koalasAverageScore) && (dolphinAverageScore >= minimumScore)) {
+//     console.log (`Dolphin Team are the champion!`)
+// } else if ((dolphinAverageScore === koalasAverageScore) && dolphinAverageScore >= 100 && koalasAverageScore >= 100) {
+//     console.log (`Both wins the trophy!`)
+// } else {
+//     console.log (`Koalas Team are the deserving Champion`)
+// }
  
+
+    // Switch Statement 
+
+const language = 'english';
+
+switch (language) {
+    case 'chinese':
+        console.log (`MOST number of native speakers`);
+        break;
+    case 'spanish':
+        console.log (`2nd place in number of native speakers`);
+        break;
+    case 'english':
+        console.log (`3rd place`);
+        break;
+    case 'hindi':
+        console.log (`Number 4`);
+        break;
+    case 'arabic':
+        console.log (`5th most spoken language`);
+        break;
+    default:
+        console.log (`Great language too :D`)
+}
