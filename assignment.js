@@ -126,8 +126,9 @@ const language = "Yoruba"
 //     console.log (`John's BMI (${johnBMI2} is higher than Mark's (${markBMI2})`);
 // }
 
-// const population = 200;
-// const country = 'Nigeria';
+const population = 200;
+const country = 'Nigeria';
+const isIsland = false;
 // const continent = 'Africa';
 // const populationAverage = (33 - population) / 2;
 
@@ -138,17 +139,77 @@ const language = "Yoruba"
 // }
 
 
-const numNeighbours = Number (
-    prompt ("How many neighbour countries does your country have?")
-    );
+// const numNeighbours = Number (
+//     prompt ("How many neighbour countries does your country have?")
+//     );
 
-if (numNeighbours === 1) {
-    console.log ("Only 1 border");
-} else if (numNeighbours > 1) {
-    console.log ("More than 1 border");
+// if (numNeighbours === 1) {
+//     console.log ("Only 1 border");
+// } else if (numNeighbours > 1) {
+//     console.log ("More than 1 border");
+// } else {
+//     console.log ("No border");
+// }
+
+    // Logical Operator 
+
+// const speaksEnglish = true;
+// const lessThan50People = false;
+// const isNotAnIsland = true;
+
+// if (speaksEnglish && lessThan50People && isNotAnIsland) {
+//     console.log ("Hurray!! This is the perfect country for you Sarah.")
+// } else {
+//     console.log ("Nah girl! It ain't your typeof country")
+// }
+
+
+// if (language === "Yoruba" && population > 50 && !isIsland) {
+//     console.log (`You should live in ${country}`);
+// } else {
+//     console.log (`${country} does not meet your criteria`);
+// }
+
+
+    // Code challenge 3
+
+// const dolphinAverageScore = (96 + 108 + 89) / 3;
+// const koalasAverageScore = (88 + 91 + 110) / 3;
+
+// if (dolphinAverageScore > koalasAverageScore) {
+//     console.log (`Dolphin Team is the winner of the competition`);
+// } else if (dolphinAverageScore === koalasAverageScore) {
+//     console.log (`The game is a tie!`)
+// } else {
+//     console.log (`Koalas Team emerges as the winner of the competition`);
+// } 
+
+    // Bonus 1 
+
+// const dolphinAverageScore = (97 + 112 + 101) / 3;
+// const koalasAverageScore = (109 + 95 + 123) / 3;
+// const minimumScore = 100;
+
+// if ((dolphinAverageScore > koalasAverageScore) && (dolphinAverageScore >= minimumScore)) {
+//     console.log (`Dolphin Team are the champion!`)
+// } else if ((koalasAverageScore > dolphinAverageScore) && (koalasAverageScore >= minimumScore)) {
+//     console.log (`Koalas Team are the deserving Champion`)
+// } else {
+//     console.log (`There is no winner. It's a tie!`)
+// }
+
+    // Bonus 2
+
+const dolphinAverageScore = (97 + 112 + 101) / 3;
+const koalasAverageScore = (109 + 95 + 106) / 3;
+const minimumScore = 100;
+console.log (dolphinAverageScore, koalasAverageScore);
+
+if ((dolphinAverageScore > koalasAverageScore) && (dolphinAverageScore >= minimumScore)) {
+    console.log (`Dolphin Team are the champion!`)
+} else if ((dolphinAverageScore === koalasAverageScore) && dolphinAverageScore >= 100 && koalasAverageScore >= 100) {
+    console.log (`Both wins the trophy!`)
 } else {
-    console.log ("No border");
+    console.log (`Koalas Team are the deserving Champion`)
 }
-
-
-
+ 
