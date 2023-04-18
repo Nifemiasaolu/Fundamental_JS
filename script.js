@@ -162,19 +162,45 @@
  
 // const favorite = Number (prompt ("What is your favorite number?"));
 
-console.log (favorite);
-console.log (typeof favorite);
+// console.log (favorite);
+// console.log (typeof favorite);
 
-if (favorite === 7) {
-    console.log (`7 is a cool number`);
-} else if (favorite) {
-    console.log (`${favorite} is a fantastic choice`);
-} else if (favorite === 9){
-    console.log ("9 is also a cool number")
+// if (favorite === 7) {
+//     console.log (`7 is a cool number`);
+// } else if (favorite) {
+//     console.log (`${favorite} is a fantastic choice`);
+// } else if (favorite === 9){
+//     console.log ("9 is also a cool number")
+// }
+
+// else {
+//     console.log ("Number is neither 23 or 7 or 9");
+// }
+
+// if (favorite !== 23) console.log ("Why not 23?")
+
+
+    // Logical Operators 
+
+const hasDriversLicense = true;
+const hasGoodVision = true; 
+
+console.log (hasDriversLicense && hasGoodVision);
+console.log (hasDriversLicense || hasGoodVision);
+console.log (!hasDriversLicense);
+
+
+if (hasDriversLicense && hasGoodVision) {
+    console.log ('Sarah is able to drive');
+} else {
+    console.log ('Someone else should drive...')
 }
 
-else {
-    console.log ("Number is neither 23 or 7 or 9");
-}
+const isTired = true;
+console.log (hasDriversLicense && hasGoodVision || isTired);
 
-if (favorite !== 23) console.log ("Why not 23?")
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log ('Sarah is able to drive');
+} else {
+    console.log ('Someone else should drive...')
+}
