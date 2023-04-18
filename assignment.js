@@ -72,7 +72,7 @@
 // const description = `${country} is in ${continent} and it's ${population} people speak ${language}`;
 // console.log (description);
 
-    // Coding Challenge
+    // Coding Challenge 1
 
 // const BMI = mass / height ** 2;
 
@@ -126,7 +126,10 @@
 //     console.log (`John's BMI (${johnBMI2} is higher than Mark's (${markBMI2})`);
 // }
 
-const population = 200;
+
+    // Code Challenge 2
+
+// const population = 200;
 const country = 'Nigeria';
 const isIsland = false;
 // const continent = 'Africa';
@@ -150,6 +153,7 @@ const isIsland = false;
 // } else {
 //     console.log ("No border");
 // }
+
 
     // Logical Operator 
 
@@ -216,24 +220,55 @@ const isIsland = false;
 
     // Switch Statement 
 
-const language = 'english';
+// const language = 'english';
 
-switch (language) {
-    case 'chinese':
-        console.log (`MOST number of native speakers`);
-        break;
-    case 'spanish':
-        console.log (`2nd place in number of native speakers`);
-        break;
-    case 'english':
-        console.log (`3rd place`);
-        break;
-    case 'hindi':
-        console.log (`Number 4`);
-        break;
-    case 'arabic':
-        console.log (`5th most spoken language`);
-        break;
-    default:
-        console.log (`Great language too :D`)
-}
+// switch (language) {
+//     case 'chinese':
+//         console.log (`MOST number of native speakers`);
+//         break;
+//     case 'spanish':
+//         console.log (`2nd place in number of native speakers`);
+//         break;
+//     case 'english':
+//         console.log (`3rd place`);
+//         break;
+//     case 'hindi':
+//         console.log (`Number 4`);
+//         break;
+//     case 'arabic':
+//         console.log (`5th most spoken language`);
+//         break;
+//     default:
+//         console.log (`Great language too :D`)
+// }
+
+
+
+        // The Conditional (Ternary) Operator 
+
+//  const giftway = (population > 33) ?  `${country}'s population is above average`:
+//                         `${country}'s population is below average`;
+//                         console.log (giftway);
+
+const population = 130;
+console.log (
+    `${country}'s population is ${population > 33 ? 'above' : 'below'} average.`)
+
+
+        // Code Challenge 4
+
+const bill = 40;
+
+// const tip = 0.15 * bill;
+// const totalValue = tip + bill;
+
+// const amount = (bill >= 50 && bill <= 300) ? 
+//     `The bill was ${bill}, the tip was ${0.15 * bill}, and the total value ${tip + bill}` :
+//     `The bill was ${bill}, the tip was ${0.2 * bill}, and the total value ${tip + bill}`;
+// console.log (amount);
+
+
+const tip = (bill >= 50 && bill <= 300) ? bill * 0.15 : bill * 0.2;
+
+console.log (`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}.`);
+
